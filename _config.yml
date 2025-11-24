@@ -2,30 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Mohammed Sani
-description: >-
-  PhD Candidate in Architectural Engineering – Real-time human-centric building optimisation (RFH-MDO)
-
-name: Mohammed Sani
-picture: /assets/img/profile.jpg   # ← upload your photo here later
-
-url: https://msaniguero64-lgtm.github.io
-
-hero:
-  title: Mohammed Sani
-  text: "RFH-MDO — Real-time human-in-the-loop multicriteria optimisation"
-
-about:
-  enabled: true
-  title: "About"
-  text: |
-    I develop **RFH-MDO**, the first real-time human-in-the-loop multicriteria building design optimisation framework that simultaneously improves energy performance, daylighting quality, and subjective occupant comfort.
-
-    My systematic review of 62 frameworks (2015–2025) confirmed three persistent gaps: prohibitive latency, absence of human perception, and poor surrogate scalability. RFH-MDO closes all three using transfer-learning surrogates (R² > 0.996, < 500 ms), active sampling, and live VR feedback.
-
-    Validated on classrooms and offices in Mediterranean and Sahelian climates. Full open-source toolkit 2026.
-
-    Actively seeking postdoctoral positions (Canada, France, Belgium, UK, USA) 2026–2027.
+title: blank # the website title (if blank, full name will be used instead)
+first_name: You
+middle_name: R.
+last_name: Name
+contact_note: >
+  You can even add a little note about which of these is the best way to reach you.
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://alshedivat.github.io # the base hostname & protocol for your site
 baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
